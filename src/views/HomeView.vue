@@ -7,7 +7,7 @@
         <div class="envelope"></div>
         <div @click="openModal(), playAudio(1)" 
           class="letter flex items-center justify-center absolute top-0 w-4/5 h-4/5 bg-white rounded-lg z-2 transition-all duration-500 cursor-pointer">
-          <p>Leer carta</p>
+          <p>Para Chloe</p>
         </div>
       </div>
     </div>
