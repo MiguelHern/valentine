@@ -21,9 +21,6 @@
           'opacity-100 scale-100': isModalOpen,
           'opacity-0 scale-50': !isModalOpen
         }" @click.stop>
-        <header class="text-center p-4">
-          ¿Quieres ser mi san valentin?
-        </header>
         <div
           class="flex-1 flex justify-center items-center bg-[url('https://res.cloudinary.com/djfokdod6/image/upload/q_auto,f_auto/v1738645821/1605f65a-c4ef-4f72-b51f-894bcf294ea0.png')]">
           <div
@@ -57,7 +54,7 @@
     </div>
   </main>
   <main v-else>
-    <FlowersView/>
+    <FlowersView @pause-audio="pauseAudio"/>
   </main>
 
   <div>

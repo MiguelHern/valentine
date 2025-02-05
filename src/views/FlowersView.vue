@@ -13,6 +13,14 @@ const toggleInsulto = () => {
   }, 2000);
 };
 
+import { defineEmits } from 'vue'
+
+const emit = defineEmits(['pause-audio'])
+
+const triggerPause = (audioNumber) => {
+  emit('pause-audio', audioNumber)
+}
+
 </script>
 <template>
 
@@ -202,12 +210,13 @@ const toggleInsulto = () => {
                             <span class="text-gray-700">Star Wars 3</span>
                         </div>
                     </div>
-                    <div class="mt-8 flex justify-center">
+                    <div class="mt-8 flex justify-center items-center flex-col">
                         <button
                         @click="toggleInsulto"
                             class="bg-red-500 text-white font-semibold py-2 px-6 rounded-full hover:bg-red-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50">
                             Confirmar Asistencia
                         </button>
+                        <button class="mt-1" @click="triggerPause(2)">Pausar</button>
                     </div>
                 </div>
                 <div class="bg-gray-50 px-6 py-4">
