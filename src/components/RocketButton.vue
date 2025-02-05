@@ -3,7 +3,7 @@
     <div class="rocket-container">
       <div v-if="!showSVG" class="rocket" :class="{ 'launch': isRocketLaunched }">
         <button @click="launchRocket" :class="{ 'launch-body': isRocketLaunched }"
-          class="rocket-body text-white min-w-20 px-6 py-3 rounded-2xl shadow-md hover:bg-gray-900 bg-black transition duration-300 cursor-pointer">
+          class="rocket-body bg-red-500 text-white font-semibold py-2 px-6 rounded-full hover:bg-red-600 transition duration-300 ease-in-out transform focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50">
           No
         </button>
         <div :class="{ 'hidden': !isRocketLaunched }">

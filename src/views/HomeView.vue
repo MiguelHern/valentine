@@ -44,7 +44,7 @@
 
         <div class="flex justify-center space-x-3 p-4">
           <button @click="toggleMain(), pauseAudio(1), playAudio(2)"
-            class="bg-black text-white min-w-20 px-6 py-3 rounded-2xl shadow-md hover:bg-gray-900 transition duration-300 cursor-pointer">
+            class="bg-red-500 text-white font-semibold py-2 px-6 rounded-full hover:bg-red-600 transition duration-300 ease-in-out transform   focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50">
             Si
           </button>
           <RocketButton />
