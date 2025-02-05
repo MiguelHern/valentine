@@ -16,27 +16,27 @@
       'opacity-100': isModalOpen
     }">
       <div
-        class="bg-white w-7xl h-11/12 p-6 rounded-lg shadow-lg opacity-0 scale-50 transition-all duration-300 flex flex-col"
+        class="bg-black w-7xl h-11/12 p-6 rounded-lg shadow-lg opacity-0 scale-50 transition-all duration-300 flex flex-col bg-[url('https://res.cloudinary.com/djfokdod6/image/upload/q_auto,f_auto/v1738645821/1605f65a-c4ef-4f72-b51f-894bcf294ea0.png')]"
         :class="{
           'opacity-100 scale-100': isModalOpen,
           'opacity-0 scale-50': !isModalOpen
         }" @click.stop>
         <div
-          class="flex-1 flex justify-center items-center bg-[url('https://res.cloudinary.com/djfokdod6/image/upload/q_auto,f_auto/v1738645821/1605f65a-c4ef-4f72-b51f-894bcf294ea0.png')]">
+          class="flex-1 flex justify-center items-center ">
           <div
             class="relative w-full max-w-sm md:max-w-md lg:max-w-lg aspect-square bg-[url('https://res.cloudinary.com/djfokdod6/image/upload/q_auto,f_auto/v1738644155/SanValentinpng_npgzuz.png')] bg-cover bg-center">
 
             <!-- Imagen izquierda -->
             <img
               src="https://res.cloudinary.com/djfokdod6/image/upload/q_auto,f_auto/v1738641878/1f850362-b9c8-44d6-8d98-3ae7ce62d6ba-removebg-preview_g9fsyg.png"
-              alt="" class="absolute bottom-0 -rotate-90 
-             h-28 sm:h-36 md:h-44 lg:h-56 xl:h-72 
-             -left-20 sm:-left-28 md:-left-36 lg:-left-48 xl:-left-56">
+              alt="" class="absolute md:bottom-0 md:-rotate-90  -rotate-30 bottom-80
+             h-36 sm:h-36 md:h-44 lg:h-56 xl:h-72 
+             -left-12 sm:-left-16 md:-left-36 lg:-left-48 xl:-left-56">
 
             <!-- Imagen derecha -->
             <img src="https://res.cloudinary.com/djfokdod6/image/upload/q_auto,f_auto/v1738641642/image_ymqnxp.png"
               alt="" class="absolute bottom-0 
-             h-28 sm:h-36 md:h-44 lg:h-56 xl:h-72 
+             h-36 sm:h-36 md:h-44 lg:h-56 xl:h-72 
              -right-10 sm:-right-16 md:-right-16 lg:-right-24">
           </div>
         </div>
