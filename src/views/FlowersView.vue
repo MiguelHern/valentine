@@ -221,7 +221,7 @@ const triggerPause = (audioNumber) => {
                 </div>
                 <div class="bg-gray-50 px-6 py-4">
                     <p class="text-gray-600 text-sm text-center italic">
-                        Are you a tamale? because es ta mal that you're not with me
+                        Are you a tamal? because es ta mal that you're not with me
                     </p>
                 </div>
             </div>
